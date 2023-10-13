@@ -4,14 +4,8 @@
     Layout = null;
 }
 
-<!DOCTYPE html>
 
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Index</title>
-</head>
-<body>
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
     <table>
         <tr>
             <th>ID</th>
@@ -26,10 +20,10 @@
                     <td>@item.CategoryID</td>
                     <td>@item.CategoryName</td>
                     <td>@item.CategoryStatus</td>
-                    <td>@item.CategoryDescription</td>
-                    <td>@item.CategoryID</td>
+                    <td><a href="#" class="btn btn-warning">detaylar</a></td>
+                    <td><a href="#" class="btn btn-danger">sil</a></td>
+                    
                 </tr>
             }
     </table>
-</body>
-</html>
+
